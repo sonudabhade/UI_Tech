@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
+    <!-- <style>
+        ol {
+          counter-reset: item;
+        }
+        li {
+          display: block;
+          color: #666666;
+        }
+        li:before {
+          content: counters(item, ".") " ";
+          counter-increment: item;
+        }
+      </style> -->
+  
 </head>
 <body>
 
@@ -57,11 +70,15 @@
 
     <h1>Nested List</h1>
     <ol>
-        <li>This is 1</li>
-        <li>This is 2</li>
-        <ol type="i">
-            <li>this is next 1</li>
-            <li>this is next 2</li>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <ol type="a">
+            <li>Element of 2</li>
+            <li>Element of 2</li>
+            <ol type="i">
+                <li>Element of b</li>
+                <li>Element of b</li>
+            </ol>  
         </ol>
              
     </ol>

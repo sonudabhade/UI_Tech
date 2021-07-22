@@ -1,0 +1,29 @@
+/* Define style using class  */
+.style-1 {
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+/* Define style using id  */
+#style-2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    /* 2em pt px cm */
+    font-style: italic;
+    color: chartreuse;
+    padding: 2em;
+    /* margin: 1em; */
+}
+
+/* Define style using html tags */
+h2, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+/* * {
+    border: 2px;
+    border-color: blue;
+    border-style: double;
+} */
